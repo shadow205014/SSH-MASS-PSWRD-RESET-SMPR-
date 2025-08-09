@@ -1,8 +1,8 @@
 # SSH-MASS-PSWRD-RESET-SMPR-
 Conecta via SSH a un rango de IPs (ej: 192.168.1.1-50), ejecuta comando 'passwd' automáticamente en cada servidor, maneja la interacción interactiva y proporciona resumen de éxitos/fallos. 
 
-"""
-INSTRUCCIONES DE USO:
+
+## INSTRUCCIONES DE USO:
 
 1. Instalación de dependencias:
    pip install paramiko
@@ -36,4 +36,4 @@ NOTAS:
 - Prueba primero en un rango pequeño
 - Mantén un respaldo de las contraseñas actuales
 - Considera implementar logging a archivo para auditoría
-"""
+
